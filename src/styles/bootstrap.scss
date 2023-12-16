@@ -1,0 +1,68 @@
+$gray-100: #F8F8FB;
+$gray-200: #F3F4F9;
+$gray-300: #E2E4EA;
+$gray-400: #9A9DA4;
+$gray-500: #63666E;
+$gray-600: #33373C;
+$gray-900: #1A1A1A;
+$primary: #1952E1;
+$body-bg: $gray-200;
+$border-color: $gray-400;
+
+$font-weight-semibold: 500;
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 2,
+  6: $spacer * 2.5,
+);
+
+$h1-font-size: $spacer * 1.5;
+$h2-font-size: $spacer * .875;
+$headings-margin-bottom: $spacer * 1.5;
+$headings-color: $gray-900;
+
+$nav-link-color: $gray-400;
+$nav-link-hover-color: $gray-600;
+$nav-link-font-size: $spacer * .875;
+$nav-link-padding-y: $spacer * 1.25;
+$nav-link-padding-x: $spacer * 1.5;
+$nav-link-font-weight: 500;
+
+$btn-padding-x-sm: $spacer;
+$btn-padding-y-sm: $spacer * .5;
+$btn-font-size-sm: $spacer * .75;
+$btn-font-weight: $font-weight-semibold;
+
+$input-bg: #fff;
+$input-font-size: 12px;
+$input-padding-x: 16px;
+$input-padding-y: 12px;
+$input-color: $gray-900;
+$input-focus-box-shadow: none;
+$input-border-color: $gray-300;
+$input-placeholder-color: $gray-400;
+$input-focus-border-color: $primary;
+
+@import 'bootstrap/scss/bootstrap.scss';
+
+:root {
+  --bs-font-sans-serif: 'Inter', sans-serif;
+}
+
+.btn-primary {
+  --bs-btn-hover-bg: #1649CA;
+  --bs-btn-border-color: #1649CA;
+  --bs-btn-disabled-bg: #2E3E6E;
+  --bs-btn-disabled-border-color: #2E3E6E;
+  --bs-btn-disabled-opacity: 1;
+}
+
+.border-dashed {
+  --bs-border-style: dashed;
+}
